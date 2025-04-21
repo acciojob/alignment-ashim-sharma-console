@@ -1,16 +1,15 @@
 /*  your css code here. If applicable */
 table {
-            border-collapse: collapse;
+           
             width: 100%;
             margin: 10px 0;
         }
-        th, td {
-            border: 1px solid #000;
-            padding: 8px;
+        tr, td {
+            border: 1px solid black;
+            padding: 1px;
             
         }
-        th {
-            background-color: #f2f2f2;}
+      
 td.left-align{text-align:left}
 td.right-align{text-align:right}
 td.center-align{text-align:center}
