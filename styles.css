@@ -1,17 +1,25 @@
 /*  your css code here. If applicable */
-table {
-           
-            width: 100%;
-            margin: 10px 0;
-        }
-        tr, td {
-            border: 1px solid black;
-            padding: 1px;
-            
-        }
-      
-td.left-align{text-align:left}
-td.right-align{text-align:right}
-td.center-align{text-align:center}
-td.green{background-color:green}
-td.blue{background-color:blue}
+table,td, tr{
+	border: 1px solid black;
+	border-spacing:1px	
+}
+
+tr,td{
+	padding:1px
+}
+.first{
+	background-color:green;
+}
+.last{
+	background-color:blue;
+}
+.left{
+	
+}
+.center{
+	text-align:center
+	
+}
+.right{
+	text-align:right;
+}
